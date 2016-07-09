@@ -18,10 +18,12 @@
 	.row{
 		width:100%;
 	  .col{
+	     width:50%;
 		.item-left{
-	        height:60px;
+		    
+	        height:67px;
 			border:0;
-			padding:14px 0 0 70px;
+			padding:14px 0 0 63px;
 			min-height:0;
 			 .listimg{
 				width: 46px;
@@ -33,6 +35,7 @@
 			p{
 			  line-height:30px;
 			  font-size:.12rem;
+			  color:#999;
 			}
 	      }
 		}
