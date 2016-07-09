@@ -1,0 +1,26 @@
+<ion-pane>
+    <ion-header-bar align-title="center" class="bar-positive">
+      <button class="button button-icon ion-ios-minus-outline" ng-click="showDeleteButton()"></button>
+      <h1 class="title">Title</h1>
+      <button class="button button-icon ion-navicon" ng-click="showReorder = !showReorder"></button>
+    </ion-header-bar>
+    <ion-pane>
+      <ion-content scrollbar-y="false">
+        <ion-list
+        show-reorder="showReorder"
+        can-swipe="true"
+        type="card"
+        >
+        <ion-item ng-repeat="item in items" class="item-thumbnail-left">
+          <img src="http://placehold.it/100x100" />
+          <h2>{{item.title}}</h2>
+          <p>{{item.description}}</p>
+          <ion-delete-button class="ion-minus-circled" ng-click="items.splice($index, 1)"></ion-delete-button>
+          <ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)"></ion-reorder-button>
+          <ion-option-button class="button-assertive" ng-click="items.splice($index, 1)">删除</ion-option-button>
+          <ion-option-button class="button-energized">分享</ion-option-button>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-pane>
+</ion-pane>
