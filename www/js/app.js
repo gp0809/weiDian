@@ -34,7 +34,8 @@ angular.module('starter', ['ionic', 'starter.controller'])
       url: '/home',
       views: {
         'home-tab': {
-          templateUrl: './tpls/home.html'
+          templateUrl: './tpls/home.html',
+          controller: 'homeController'
         }
       }
     })
@@ -43,7 +44,6 @@ angular.module('starter', ['ionic', 'starter.controller'])
       views: {
         'list-tab': {
           templateUrl: './tpls/tongcheng.html',
-          controller: 'listController'
         }
       }
     })
@@ -51,7 +51,7 @@ angular.module('starter', ['ionic', 'starter.controller'])
       url: '/search',
       views: {
         'search-tab': {
-          templateUrl: './tpls/search.html'
+          templateUrl: './tpls/\.html'
         }
       }
     })

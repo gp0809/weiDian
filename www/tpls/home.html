@@ -1,6 +1,33 @@
 <ion-header-bar align-title="center" class="bar-assertive">
    <h1 class="title home-title">微店动态</h1>
 </ion-header-bar>
-<ion-content scrollbar-y="false" class="nima">
-        nihadisdnoa
+<ion-content scrollbar-y="false" class="has-header nima">
+	<div class="row row-top home-top">
+        <div class="col"><img src="/img/top1.png"></div>
+        <div class="col"><img src="/img/top2.png"></div>
+  </div>
+	<ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="true" slide-interval=2000 show-pager="true" pager-click="pageClick(index)" active-slide="model.activeIndex" delegate-handle="delegateHandler">
+	  <ion-slide>
+	    <div class="box blue">
+	      <img src="/img/banner1.png">
+	    </div>
+	  </ion-slide>
+	  <ion-slide>
+	    <div class="box yellow">
+	      <img src="/img/banner2.png">
+	    </div>
+	  </ion-slide>
+	  <ion-slide>
+	    <div class="box pink">
+	      <img src="/img/banner3.png">
+	    </div>
+	  </ion-slide>
+	</ion-slide-box>
+		<ul class="list">
+        <li class="item" ng-repeat="g in good">
+          <img src="{{g.fImg}}">
+          <div class="good-title">￥{{g.fTitle}}</div>
+          <div class="good-price">￥{{g.fPrice}}</div>
+        </li>
+    </ul>
 </ion-content>
