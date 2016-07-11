@@ -34,16 +34,16 @@ angular.module('starter', ['ionic', 'starter.controller'])
       url: '/home',
       views: {
         'home-tab': {
-          templateUrl: './tpls/home.html'
+          templateUrl: './tpls/home.html',
+          controller: 'homeController'
         }
       }
     })
-    .state('tabs.list', {
+    .state('tabs.tongcheng', {
       url: '/tongcheng',
       views: {
-        'list-tab': {
+        'tongcheng-tab': {
           templateUrl: './tpls/tongcheng.html',
-          controller: 'listController'
         }
       }
     })
