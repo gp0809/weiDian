@@ -1,0 +1,17 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/www/img/goods1.png"
+    },
+    {
+      
+      "imgsrc": "/www/img/goods2.png"
+    },
+    {    
+      "imgsrc": "/www/img/goods3.png"
+  	}
+  ]
+}

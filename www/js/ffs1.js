@@ -1,9 +1,11 @@
-// angular.module('ffs.controller', [])
-//   .controller('httpCtrl', function ($scope, $http) {
-//   $http.get('/www/mock/ffs.json')
-//     .then(
-//       function (res) {
-//         $scope.livelist = res.data.data;
-//       }
-//     )
-// })
+angular.module('ffs.controller', [])
+
+  .controller('myController', function ($scope, $http) {
+  $http.get('./mock/ffs.json')
+    .then(
+      function (res) {
+      	console.log(res);
+        $scope.livelist = res;
+      }
+    )
+})
