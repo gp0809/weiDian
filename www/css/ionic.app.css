@@ -10083,10 +10083,12 @@ a.button {
       text-align: center; }
   .city_wide .city_nav {
     background-color: #fff;
-    margin-left: 1%; }
+    margin-left: 0.1%; }
     .city_wide .city_nav .col {
       color: #555;
-      font-size: 15px;
+      font-size: 13px;
+      padding-left: 0;
+      padding-right: 0;
       margin: 1%;
       border-radius: .3rem;
       background-color: #f2f2f2;
@@ -10119,18 +10121,18 @@ a.button {
       width: 98%;
       border-bottom: 1px solid #f2f2f2; }
       .city_wide .city_wm .city_wm_h :nth-child(1) {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500; }
       .city_wide .city_wm .city_wm_h :nth-child(2) {
         color: red;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500; }
       .city_wide .city_wm .city_wm_h :nth-child(3) {
         color: gray;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500; }
       .city_wide .city_wm .city_wm_h :nth-child(4) {
-        font-size: 14px;
+        font-size: 13px;
         color: gray;
         font-weight: 500;
         margin-left: 35%; }
@@ -10139,7 +10141,8 @@ a.button {
       height: 100%; }
     .city_wide .city_wm .row span {
       display: block;
-      text-align: center; }
+      text-align: center;
+      font-size: 13px; }
 
 .city_wide {
   width: 100%;
@@ -10178,10 +10181,12 @@ a.button {
       text-align: center; }
   .city_wide .city_nav {
     background-color: #fff;
-    margin-left: 1%; }
+    margin-left: 0.1%; }
     .city_wide .city_nav .col {
       color: #555;
-      font-size: 15px;
+      font-size: 13px;
+      padding-left: 0;
+      padding-right: 0;
       margin: 1%;
       border-radius: .3rem;
       background-color: #f2f2f2;
@@ -10214,18 +10219,18 @@ a.button {
       width: 98%;
       border-bottom: 1px solid #f2f2f2; }
       .city_wide .city_wm .city_wm_h :nth-child(1) {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500; }
       .city_wide .city_wm .city_wm_h :nth-child(2) {
         color: red;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500; }
       .city_wide .city_wm .city_wm_h :nth-child(3) {
         color: gray;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500; }
       .city_wide .city_wm .city_wm_h :nth-child(4) {
-        font-size: 14px;
+        font-size: 13px;
         color: gray;
         font-weight: 500;
         margin-left: 35%; }
@@ -10234,4 +10239,5 @@ a.button {
       height: 100%; }
     .city_wide .city_wm .row span {
       display: block;
-      text-align: center; }
+      text-align: center;
+      font-size: 13px; }
