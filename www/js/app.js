@@ -39,10 +39,10 @@ angular.module('starter', ['ionic', 'starter.controller'])
         }
       }
     })
-    .state('tabs.list', {
+    .state('tabs.tongcheng', {
       url: '/tongcheng',
       views: {
-        'list-tab': {
+        'tongcheng-tab': {
           templateUrl: './tpls/tongcheng.html',
         }
       }
