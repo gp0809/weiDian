@@ -9820,6 +9820,7 @@ a.button {
   font-size: 18px;
   font-weight: 900; }
 
+<<<<<<< HEAD
 .nima .home-top {
   height: 40px;
   padding: 0; }
@@ -9863,3 +9864,42 @@ a.button {
     position: absolute;
     right: 15px;
     top: 30px; }
+=======
+.nima {
+  font-size: 50px;
+  text-decoration: underline;
+  color: pink; }
+
+.hh {
+  background-color: #c60a1e;
+  padding: 8px; }
+  .hh .aa {
+    font-size: 1.4rem; }
+  .hh .search-tet {
+    font-size: 0.12rem;
+    background: #eee;
+    font-weight: bold;
+    padding-left: 0.8rem;
+    height: 100%; }
+
+.content {
+  background: #eee; }
+  .content .row {
+    width: 100%; }
+    .content .row .col {
+      width: 50%; }
+      .content .row .col .item-left {
+        height: 67px;
+        border: 0;
+        padding: 14px 0 0 63px;
+        min-height: 0; }
+        .content .row .col .item-left .listimg {
+          width: 46px;
+          height: 46px; }
+        .content .row .col .item-left h2 {
+          font-size: .12rem; }
+        .content .row .col .item-left p {
+          line-height: 30px;
+          font-size: .12rem;
+          color: #999; }
+>>>>>>> kangling
