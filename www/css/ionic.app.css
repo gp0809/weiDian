@@ -9863,3 +9863,98 @@ a.button {
     position: absolute;
     right: 15px;
     top: 30px; }
+
+.city_wide {
+  width: 100%;
+  background-color: #f2f2f2; }
+  .city_wide .city_search {
+    z-index: 999;
+    position: fixed;
+    width: 93%; }
+    .city_wide .city_search .city_search_l {
+      margin: 5%;
+      width: 100%;
+      height: 100%; }
+    .city_wide .city_search i {
+      font-size: 1.5rem; }
+    .city_wide .city_search .serchtxt {
+      background: #f2f2f2;
+      font-size: .14rem;
+      font-weight: 700;
+      width: 100%;
+      height: 100%; }
+  .city_wide .city_img {
+    width: 100%;
+    height: 48%; }
+    .city_wide .city_img h3 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      padding-top: 35%;
+      width: 100%;
+      text-align: center; }
+    .city_wide .city_img span {
+      display: block;
+      color: #fff;
+      font-size: 14px;
+      width: 100%;
+      text-align: center; }
+  .city_wide .city_nav {
+    background-color: #fff;
+    margin-left: 1%; }
+    .city_wide .city_nav .col {
+      color: #555;
+      font-size: 15px;
+      margin: 1%;
+      border-radius: .3rem;
+      background-color: #f2f2f2;
+      text-align: center; }
+  .city_wide .city_pic {
+    background-color: #fff;
+    padding: 1%; }
+    .city_wide .city_pic img {
+      width: 100%; }
+    .city_wide .city_pic .col {
+      position: relative; }
+      .city_wide .city_pic .col .city_pic_f {
+        width: 90%;
+        position: absolute;
+        left: 10%;
+        bottom: 15%; }
+        .city_wide .city_pic .col .city_pic_f h4 {
+          color: #fff;
+          border-bottom: 1px solid #fff;
+          width: 80%;
+          padding-bottom: 5%; }
+        .city_wide .city_pic .col .city_pic_f span {
+          color: #fff; }
+  .city_wide .city_wm {
+    background-color: #fff;
+    margin-top: 5%;
+    padding: 3%; }
+    .city_wide .city_wm .city_wm_h {
+      padding-bottom: 2%;
+      width: 98%;
+      border-bottom: 1px solid #f2f2f2; }
+      .city_wide .city_wm .city_wm_h :nth-child(1) {
+        font-size: 22px;
+        font-weight: 500; }
+      .city_wide .city_wm .city_wm_h :nth-child(2) {
+        color: red;
+        font-size: 14px;
+        font-weight: 500; }
+      .city_wide .city_wm .city_wm_h :nth-child(3) {
+        color: gray;
+        font-size: 14px;
+        font-weight: 500; }
+      .city_wide .city_wm .city_wm_h :nth-child(4) {
+        font-size: 14px;
+        color: gray;
+        font-weight: 500;
+        margin-left: 35%; }
+    .city_wide .city_wm .row img {
+      width: 100%;
+      height: 100%; }
+    .city_wide .city_wm .row span {
+      display: block;
+      text-align: center; }

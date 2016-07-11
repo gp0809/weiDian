@@ -1,1 +1,5 @@
 /* Empty. Add your own CSS if you like */
+.city_img{
+  background: url(../img/city.png) no-repeat;
+  background-size:cover;
+}
