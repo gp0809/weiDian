@@ -51,7 +51,7 @@ angular.module('starter', ['ionic', 'starter.controller'])
       url: '/search',
       views: {
         'search-tab': {
-          templateUrl: './tpls/\.html'
+          templateUrl: './tpls/search.html'
         }
       }
     })
