@@ -4,25 +4,19 @@
   "errmsg": "",
   "data": [
     {
-<<<<<<< HEAD
       "imgsrc": "/www/img/goods11.png"
     },
-    {
-      
+    { 
       "imgsrc": "/www/img/goods12.png"
     },
     {    
       "imgsrc": "/www/img/goods13.png"
-=======
-      "imgsrc": "/www/img/goods1.png"
     },
-    {
-      
-      "imgsrc": "/www/img/goods2.png"
+    { 
+      "imgsrc": "/www/img/goods12.png"
     },
     {    
-      "imgsrc": "/www/img/goods3.png"
->>>>>>> origin/ffs
+      "imgsrc": "/www/img/goods13.png"
   	}
   ]
 }

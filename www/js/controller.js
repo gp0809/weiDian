@@ -7,4 +7,12 @@ angular.module('starter.controller', [])
         $scope.good = res.data.data;
         console.log($scope.good[0].fImg);
       });
-  }]);
+  }])
+  .controller('myController',['$scope','$http',function ($scope, $http) {
+  $http.get('/mock/ffs.json')
+    .then(
+      function (res) {
+        $scope.livelist = res.data.data;
+      }
+    )
+}])

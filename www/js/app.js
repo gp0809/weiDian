@@ -60,7 +60,7 @@ angular.module('starter', ['ionic', 'starter.controller'])
       views: {
         'my-tab': {
           templateUrl: './tpls/my.html',
-          // controller: 'myController'
+          controller: 'myController'
         }
       }
     });
