@@ -12,6 +12,7 @@ angular.module('starter.controller', [])
   $http.get('/mock/ffs.json')
     .then(
       function (res) {
+        console.log(res);
         $scope.livelist = res.data.data;
       }
     )
